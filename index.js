@@ -6,11 +6,10 @@ const ThemedParty = require('./components/ThemedDecorations');
 
 ReactDOM.render(
   <div>
-    <Invitation>Hey, you should totally come to this awesome party I'm throwing!</Invitation>
+    <Invitation></Invitation>
     <ThemedParty theme="heaven">
-      <p>A decoration</p>
-      <p>Some other decoration</p>
-      <p>A last decoration</p>
+      <ThemedDecorations>
+      </ThemedDecorations>
     </ThemedParty>
   </div>,
   document.getElementById('main')
